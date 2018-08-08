@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "Kimberley";
+  src: url(http://www.princexml.com/fonts/larabie/ »
+  kimberle.ttf) format("truetype");
+}
+body{
+	background-color: #281e65;
+	margin: 0;
+	font-family: sans-serif;
+
+}
+.container-body{
+	background-color: #5143a9;
+	border-radius: 5px;
+	margin:13px ;
+	height: 670px;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	
+	align-items: center;
+	padding-top: 25px
+}
+.auth-list{
+	display: flex;
+	list-style-type: none;
+	
+
+}
+.btn-log-in{
+color: white;
+border-radius: 22px;
+font-size: 20px;
+border: none;
+background-color: transparent;
+cursor: pointer;
+font-weight: bold;
+font-family: Berlin Sans FB Demi;
+padding:  10px 10px ;
+width: 150px;
+}
+.btn-sign-up{
+color: white;
+border-radius: 22px;
+font-size: 20px;
+border: 2px solid white;
+background-color: transparent;
+cursor: pointer;
+font-weight: bold;
+font-family: Berlin Sans FB Demi;
+padding:  10px 10px ;
+width: 150px;
+}
+.auth-item{
+	margin-right: 15px;
+}
+.hover:hover{
+	background-color: #c3c1cc96;
+	
+}
+.hover-sign:hover{
+	background-color:#281e65; 
+}
+.chat-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.chat-item{
+	height: 50px;
+	border-radius: 18px;
+	background-color: white;
+	list-style-type: none;
+	vertical-align: middle;
+	padding-top: 3px; 
+	margin-bottom: 6px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+}
+.logo{
+	font-family: Arial;
+	font-weight: bold;
+	color: white;
+	margin-left: 20px;
+}
+.chat-img{
+	list-style-type: none;
+	
+}
+.img-liste{
+	border-radius: 18px;
+}
+
+
+.options-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-left: -70px;
+	margin-top: -20px;
+}
+.option-item{
+	background-color: #f13650;
+	color: #fff;
+	width: 200px;
+	height: 70px;
+	border: 2px solid #c3162e;
+}
+.options-container h6{
+	color: white;
+	font-family: Kimberley, sans-serif;
+
+}
+.options-container a{
+	color: white;
+	
+}
+.option-item:hover{
+	background-color: #fb5eb5;
+	cursor: pointer;
+}
+span{
+	font-weight: bold;
+}
+.chat-text{
+	width: 500px;
+
+}
+.chat-content{
+	position: relative;
+}
+.img-chat-profil{
+	position: absolute;
+	top:265px;
+	left: -30px;
+	height: 60px;
+}
